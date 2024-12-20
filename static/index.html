@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Image Converter</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Futuristic Image Converter</h1>
+        <form id="uploadForm">
+            <input type="file" id="imageInput" accept="image/*" required>
+            <button type="submit">Convert Image</button>
+        </form>
+        <div id="result">
+            <p id="status"></p>
+            <img id="outputImage" alt="" />
+            <a id="downloadLink" href="" download>Download Futuristic Image</a>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
